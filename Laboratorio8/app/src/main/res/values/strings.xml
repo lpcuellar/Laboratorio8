@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Inventory Plus</string>
+
+    <string name="masText">+</string>
+    <string name="menosText">-</string>
+    <string name="txt_reiniciarLista">Reiniciar lista</string>
+    <string name="txt_inventarioActual">Inventario actual</string>
+    <string name="save">Save</string>
+    <string name="NavDrawerDescription">Nav Drawer</string>
+    <string name="txt_inventarios">Inventarios</string>
+    <string name="txt_productos">Productos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_nuevoProducto">Nuevo producto</string>
+    <string name="txt_nuevoInventario">Nuevo inventario</string>
+    <string name="txt_codigo">Codigo</string>
+    <string name="txt_nombre">Nombre</string>
+</resources>

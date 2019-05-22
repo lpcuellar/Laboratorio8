@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation.xml" app:startDestination="@id/inventariosFragment">
+
+    <fragment android:id="@+id/itemsFragment" android:name="com.example.lab8.ItemsFragment"
+              android:label="Items"/>
+    <fragment android:id="@+id/inventariosFragment" android:name="com.example.lab8.InventariosFragment"
+              android:label="Inventarios" tools:layout="@layout/fragment_inventarios">
+        <action android:id="@+id/action_inventariosFragment_to_itemsFragment" app:destination="@id/itemsFragment"/>
+    </fragment>
+    <fragment android:id="@+id/nuevoProductoFragment" android:name="com.example.lab8.NuevoProductoFragment"
+              android:label="NuevoProductoFragment"/>
+    <fragment android:id="@+id/productoFragment" android:name="com.example.lab8.ProductoFragment"
+              android:label="Productos">
+        <action android:id="@+id/action_productoFragment_to_nuevoProductoFragment"
+                app:destination="@id/nuevoProductoFragment"/>
+    </fragment>
+</navigation>
